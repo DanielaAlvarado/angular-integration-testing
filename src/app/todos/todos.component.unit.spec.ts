@@ -1,8 +1,7 @@
 import { TodosComponent } from './todos.component'; 
 import { TodoService } from './todo.service'; 
 //import { TodoFormComponent } from '../04-forms/todo-form.component';
-//import { Observable } from 'rxjs/Observable';
-import { Observable } from 'rxjs/Rx';
+import { Observable } from 'rxjs/Observable';
 import 'rxjs/add/observable/from';
 import 'rxjs/add/observable/empty';
 import 'rxjs/add/observable/throw';

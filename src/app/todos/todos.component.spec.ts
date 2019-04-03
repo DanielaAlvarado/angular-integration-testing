@@ -5,9 +5,7 @@ import { DebugElement } from '@angular/core';
 import { HttpModule } from '@angular/http';
 import { TodosComponent } from './todos.component';
 import { TodoService } from './todo.service';
-//import { Observable } from 'rxjs';
-//import { Observable } from 'rxjs/Observable';
-import { Observable } from 'rxjs/Rx';
+import { Observable } from 'rxjs';
 import { findSafariExecutable } from 'selenium-webdriver/safari';
 
 //NOTE: I've deliberately excluded this suite from running
